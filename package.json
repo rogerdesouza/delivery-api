@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "delivery-api",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.5.0",
+    "@strapi/plugin-graphql": "^5.5.0",
     "@strapi/plugin-users-permissions": "5.5.0",
     "@strapi/strapi": "5.5.0",
     "pg": "8.8.0",
